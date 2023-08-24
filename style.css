@@ -1,0 +1,389 @@
+/* COLOR VARIABLE */
+:root {
+  --darkblue: rgba(13, 40, 166, 1);
+  --danger: rgba(250, 44, 90, 1);
+  --warning: rgba(249, 204, 0, 1);
+  --success: rgba(92, 184, 95, 1);
+  --lightblue: rgba(241, 243, 255, 1);
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--lightblue);
+}
+.navbar-nav a {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.navbar-nav .btn {
+  color: var(--neutral-10, #fff);
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+  background-color: var(--success);
+  border-color: var(--success);
+  border-radius: 3px;
+  width: 81px;
+  height: 36px;
+}
+
+/* HERO START*/
+.hero {
+  background-color: var(--lightblue);
+}
+.hero-tagline h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.hero-tagline p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+.hero-tagline .btn {
+  background-color: var(--success);
+  border-color: var(--success);
+  border-radius: 3px;
+  color: var(--neutral-10, #fff);
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+/* HERO END*/
+
+/* OUR SERVICES START */
+.service-tagline h1 {
+  color: #000;
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+.service-tagline p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+.bi-check-lg {
+  background-color: #cfd4ed;
+  color: #0d28a6;
+  border-radius: 15px;
+  padding: 3px 5px;
+}
+/* OUR SERVICES END */
+
+/* WHY US START */
+.why-us h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+.why-us p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.why-us h5 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+.why-us .bi-hand-thumbs-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--warning);
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+.why-us .bi-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--danger);
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+.why-us .bi-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--darkblue);
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+.why-us .bi-award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--success);
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+.card-whyus {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--neutral-02, #d0d0d0);
+}
+/* WHY US END */
+
+/* TESTIMONIAL START */
+.testi {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.testi .opening-text-testimony h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.testi .opening-text-testimony p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.testi-box {
+  max-width: 619px;
+  background-color: #f1f3ff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.testi-box img {
+  width: 80px !important;
+  height: 80px;
+  border-radius: 100%;
+}
+.text-review {
+  padding-top: 69px;
+  padding-bottom: 69px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  height: 100%;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  width: 32px;
+}
+.testi-box .text-review .star img {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 8px;
+}
+.testi-box p {
+  font-weight: 300 !important;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  font-family: Helvetica;
+}
+.testi-box h5 {
+  font-weight: 600 !important;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Helvetica;
+}
+.owl-prev,
+.owl-next {
+  margin: 10px;
+}
+.next-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px;
+}
+.next-slide:hover {
+  color: white;
+  background-color: #5cb85f;
+  border: 1px solid #5cb85f;
+}
+.prev-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px;
+}
+.prev-slide:hover {
+  color: white;
+  background-color: #5cb85f;
+  border: 1px solid #5cb85f;
+}
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+/* TESTIMONIAL END */
+
+/* CTA BANNER START*/
+.banner .container {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  color: white;
+  width: 100%;
+}
+.banner h1 {
+  color: var(--neutral-01, #fff);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.banner p {
+  color: var(--neutral-01, #fff);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+.banner .container * {
+  margin: 16px 0;
+}
+.banner .btn {
+  background-color: var(--success);
+  border-color: var(--success);
+  border-radius: 3px;
+  color: var(--neutral-10, #fff);
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+/* CTA BANNER END*/
+
+/* FAQ START*/
+.faq .col-md-5 h3 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+.faq .col-md-5 p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+.accordion-item {
+  border-radius: 0.25rem;
+  border: 1px solid #d4d4d4;
+}
+.faq .col-md-7 h6,
+.faq .col-md-7 p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+/* FAQ END*/
+
+/* FOOTER START*/
+.footer p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+.footer a {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  text-decoration: none;
+}
+.footer .bi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--darkblue);
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+}
+/* FOOTER END*/
